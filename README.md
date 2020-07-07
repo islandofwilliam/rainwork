@@ -21,6 +21,8 @@ function register_routes()
 Then, create your controller in the `controllers` folder
 
 ```php
+// controllers/WelcomeController.php
+
 namespace App\Controller;
 
 include_once __DIR__ . '/../Etc/Request.php';
@@ -114,4 +116,4 @@ class AuthMiddleware extends BaseMiddleware
 * Create a tool to create controllers & middleware
 
 # Discord
-Discord is proprietary software & is not end to end encrypted but it's easy and fun to use. You can join my server which has a channel dedicated to it: https://github.com/islandofwilliam/rainwork.
+Discord is proprietary software & is not end to end encrypted but it's easy and fun to use. You can join my server which has a channel dedicated to it: https://discord.gg/hqRuwe9.
