@@ -17,5 +17,6 @@ class Request
         $this->uri        = $_SERVER['REQUEST_URI'];
         $this->body       = file_get_contents( 'php://input' );
         $this->params     = Array();
+        $this->headers    = getallheaders();
     }
 }

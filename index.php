@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * This sets up everything ready for the router to dispatch the correct
+ * controller for the route. Unless you need to change the interval server
+ * error message then don't modify this file.
+ */
+
 include_once __DIR__ . '/Etc/Request.php';
 include_once __DIR__ . '/Etc/Router.php';
 include_once __DIR__ . '/Etc/Response.php';
