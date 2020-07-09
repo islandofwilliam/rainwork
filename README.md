@@ -114,6 +114,3 @@ class AuthMiddleware extends BaseMiddleware
 # ToDo
 * Implement an ORM
 * Create a tool to create controllers & middleware
-
-# Discord
-Discord is proprietary software & is not end to end encrypted but it's easy and fun to use. You can join my server which has a channel dedicated to it: https://discord.gg/hqRuwe9.
